@@ -7,7 +7,7 @@
     "header header header"
     "left box banner1"
     "left box banner2"
-    "footerleft footercenter footerright";
+    "footer footer footer";
     grid-column: 15px;
     background-color: #E56B6F;
     color: #fff;
@@ -49,7 +49,6 @@
 }
 .box1{
     background-color: #4a3c53;
-
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
@@ -57,7 +56,6 @@
 }
 .box2{
     background-color: #4a3c53;
-
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
@@ -108,6 +106,12 @@
     align-items: center;
     grid-area: banner2;
     background-color: #794d56;
+}
+.footer{
+    grid-area: footer;
+    display: grid;
+    grid-template-columns: 1fr  1fr 1fr;
+    grid-template-areas: "footerleft footercenter footerright";
 }
 .footerleft{
     display: flex;
